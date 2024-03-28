@@ -1,51 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EmailJS</title>
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
-    ></script>
-  </head>
-  <body>
-    <div class="row">
-      <h1>SEND EMAIL WITH EMAILJS</h1>
-      <div class="form-group">
-        Name:
-        <input
-          type="text"
-          id="fullName"
-          class="form-control"
-          placeholder="Prenom"
-        />
-      </div>
-      <div class="form-group">
-        Email:
-        <input
-          type="email"
-          id="email_id"
-          class="form-control"
-          placeholder="Email"
-        />
-      </div>
-    </div>
-    <div class="row">
-      <div class="form-group">
-        Message:
-        <textarea
-          name=""
-          class="form-control"
-          id="message"
-          placeholder="Message"
-        ></textarea>
-      </div>
-    </div>
-    <div class="row">
-      <button onclick="SendMail()" class="btn">Send</button>
-    </div>
 
-    <script src="script.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EmailJS</title>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+
+<body>
+  <h1>SEND EMAIL WITH EMAILJS</h1>
+  <div>
+    Name:
+    <input type="text" id="fullName" placeholder="Name" />
+  </div>
+  <div>
+    Email:
+    <input type="email" id="email_id" placeholder="Email" />
+  </div>
+  <div>
+    Message:
+    <textarea name="" id="message" placeholder="Message"></textarea>
+  </div>
+  <div>
+    <button onclick="SendMail()">Send</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
 </html>
