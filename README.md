@@ -2,6 +2,11 @@
 
 This project showcases how to send emails using EmailJS. It's super easy and fun!
 
+## Clone the repository
+```
+git clone https://github.com/OumarLAM/EmailJS-with-JavaScript.git
+cd EmailJS-with-JavaScript
+```
 ## Usage
 
 1. Open `index.html` in your favorite browser.
